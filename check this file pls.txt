@@ -2,7 +2,7 @@ To make sure you got the previous versions of this habbo cms the not-editted ver
 i will be only give the website backend it self. This does not include the following folders.
 
 - AvatarGenerator 
-- htdocs 
+- .htaccess
 - Some more important stuff.
 
 This is because of people who think they can ez search stuff and think they can re-name the credits in the footer
