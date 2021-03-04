@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Page Title -->
+		<title>Maintenance - Maintenance</title>
+		<!-- Page Title Einde -->
+
+		<!-- Externe links-->
+																																																																																																																																																																																																																																																																																																																																																																																												<link href="css/modal-box.css" rel="stylesheet">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+																																																																																																																																																																																																																																																																																																							<link href="css/stars.css" rel="stylesheet">
+		<script src="js/modal-box.js"></script>
+		<!-- Externe Links Einde-->
+
+
+		
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,100italic,300,100|Roboto+Condensed:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+		<!-- fonts einde -->
+	</head>
+<body oncontextmenu="return false">
+<script language="JavaScript">
+
+
+    document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+           //alert('No F-12');
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+
+</script>
+
+<script type="text/javascript"> 
+
+
+var message="Sorry, right-click has been disabled"; 
+/////////////////////////////////// 
+function clickIE() {if (document.all) {(message);return false;}} 
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) { 
+if (e.which==2||e.which==3) {(message);return false;}}} 
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;} 
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;} 
+document.oncontextmenu=new Function("return false") 
+// --> 
+</script> 
+
+<script type="text/javascript">
+    function mousehandler(e) {
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if ((eventbutton == 2) || (eventbutton == 3)) return false;
+    }
+    document.oncontextmenu = mischandler;
+    document.onmousedown = mousehandler;
+    document.onmouseup = mousehandler;
+    function disableCtrlKeyCombination(e) {
+        var forbiddenKeys = new Array("a", "s", "c", "x","u");
+        var key;
+        var isCtrl;
+        if (window.event) {
+            key = window.event.keyCode;
+            //IE
+            if (window.event.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        else {
+            key = e.which;
+            //firefox
+            if (e.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        if (isCtrl) {
+            for (i = 0; i < forbiddenKeys.length; i++) {
+                //case-insensitive comparation
+                if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+</script>
+
+
+    <!-- Sterren Animation -->
+    <div id="stars"></div>
+	
+	
+	
+	<!-- Header -->
+	<div id="logo_head">
+	
+	
+	
+	
+	
+		<div class="habblet"/>
+		
+		
+	</div>
+	
+	
+	
+<div class="logo_desc">We zijn in onderhoud! <br> <p class="small-letters">Alles is gemaakt door {Zen!th}#0984</p></div>
+	<!-- Progress Circles -->
+	<div id="round_center" style="margin-left: 13.5%;">
+		<div class="round_1">
+			<div class="inner"><a class="title">EMULATOR</a> <a class="desc">95%</a></div>
+		</div>
+		<div class="round_2">
+			<div class="inner"><a class="title">WEBSITE</a> <a class="desc">15%</a></div>
+		</div>
+		<div class="round_3">
+			<div class="inner"><a class="title">CLIENT</a> <a class="desc">80%</a></div>
+		</div>
+	</div>
+	
+	<button class="trigger">Waarom Onderhoud?</button>
+	
+    <div class="modal">
+	
+	
+	
+	
+	
+        <div class="modal-content">
+		
+		
+		
+		
+		
+            <span class="close-button">&times;</span>
+			
+			
+			<div class="show-modal"></div>
+			
+			
+					<h2 class="ownership">Credits: <br/>None<br/> (Dev) Zenith <br/>None</h2>
+					
+						<a href="C:/inetpub/wwwroot/adminlogin.html" class="admin">AdminLogin</p></a>
+						<p class="modal-footer">Gemaakt met <3</p>
+					
+																																																																																																									<link href="css/page.css" rel="stylesheet">
+					
+					
+            <h1 class="positioning"><br> Onderhoud: <br>Beter Stuffs <br>Bug Fixes<br>Meer Iconen<br>Meer Plezier<br></h1> 	<h2 class="codes">Made By: Zenith</h2>
+			
+			
+			
+			
+			
+			<h3 class="extra-stuff">http://spaceproject.nl/</h3>
+        </div>
+		
+		
+		
+		
+    </div>
+
+<script>
+var modal = document.querySelector(".modal");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+	</script>
+	
+<script type="text/javascript">
+window.history.pushState(null, null, "NietSteelBaar")
+
+function disableF5(e) {
+    if ((e.which || e.keyCode) == 116 || ((e.ctrlKey || e.metaKey) && (e.which || e.keyCode) == 82) || (window.event.ctrlKey && e.keyCode == 82)) {
+        fetchPage(originalURL);
+        e.preventDefault();
+    }
+}
+
+function fetchPage(originalURL) {
+    jQuery.get( originalURL, function( data ) {
+        jQuery( "body" ).html( data );
+    });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,490 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background-color: rgb(3, 169, 244);
+}
+
+#container_12 {
+    height: auto;
+    margin: auto;
+}
+
+#left {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#right {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#content {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+#maintenance {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50em;
+    height: 40em;
+    margin-left: -25em;
+    margin-top: -20em;
+    border-radius: 4px;
+}
+
+#equipe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18em;
+    height: 40em;
+    margin-left: -25em;
+    margin-top: -20em;
+    background-color: rgb(55, 71, 79);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#updates {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 32em;
+    height: 40em;
+    margin-left: -7em;
+    margin-top: -20em;
+    background-color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#logo {
+    margin-top: -1.7em;
+    margin-left: 5em;
+    position: absolute;
+}
+
+#haut_equipe {
+    position: absolute;
+    background-color: rgb(38, 50, 56);
+    height: 3.5em;
+    width: 18em;
+    margin-top: 4em;
+}
+
+#haut_equipe > p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+#avatar_equipe {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: -2px -1px;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 8em;
+    border-radius: 50%;
+}
+
+#avatar_equipe2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: -2px -1px;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 0em;
+    border-radius: 50%;
+}
+
+#avatar_nom {
+    text-align: right;
+    margin-right: 6em;
+    margin-top: 9em;
+}
+
+#avatar_nom2 {
+    text-align: right;
+    margin-right: 6em;
+    margin-top: 2em;
+}
+
+#avatar_nom > p {
+    color: rgb(144, 164, 174);
+}
+
+#avatar_nom2 > p {
+    color: rgb(144, 164, 174);
+}
+
+#avatar_staff {
+    text-align: right;
+    margin-right: 3em;
+    margin-top: -1em;
+}
+
+#avatar_staff > p {
+    color: rgb(84, 110, 122);
+}
+
+#texte_pourquoi {
+    margin-left: 1em;
+    margin-right: 1em;
+    position: absolute;
+}
+
+#decoration {
+    margin-top: 31em;
+    margin-left: 15em;
+    overflow: hidden;
+    height: 9em;
+}
+
+/* Containers */
+#container_12 {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+/* Grid >> Global */
+#grid_1,
+#grid_2,
+#grid_3,
+#grid_4,
+#grid_5,
+#grid_6,
+#grid_7,
+#grid_8,
+#grid_9,
+#grid_10,
+#grid_11,
+#grid_12 {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#push_1, #pull_1,
+#push_2, #pull_2,
+#push_3, #pull_3,
+#push_4, #pull_4,
+#push_5, #pull_5,
+#push_6, #pull_6,
+#push_7, #pull_7,
+#push_8, #pull_8,
+#push_9, #pull_9,
+#push_10, #pull_10,
+#push_11, #pull_11,
+#push_12, #pull_12 {
+    position: relative;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last) */
+#alpha {
+    margin-left: 0;
+}
+
+#omega {
+    margin-right: 0;
+}
+
+/* Grid >> 12 Columns */
+#container_12 #grid_1 {
+    width: 60px;
+}
+
+#container_12 #grid_2 {
+    width: 140px;
+}
+
+#container_12 #grid_3 {
+    width: 220px;
+}
+
+#container_12 #grid_4 {
+    width: 300px;
+}
+
+#container_12 #grid_5 {
+    width: 380px;
+}
+
+#container_12 #grid_6 {
+    width: 460px;
+}
+
+#container_12 #grid_7 {
+    width: 540px;
+}
+
+#container_12 #grid_8 {
+    width: 620px;
+}
+
+#container_12 #grid_9 {
+    width: 700px;
+}
+
+#container_12 #grid_10 {
+    width: 780px;
+}
+
+#container_12 #grid_11 {
+    width: 860px;
+}
+
+#container_12 #grid_12 {
+    width: 940px;
+}
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+#container_12 #prefix_1 {
+    padding-left: 80px;
+}
+
+#container_12 #prefix_2 {
+    padding-left: 160px;
+}
+
+#container_12 #prefix_3 {
+    padding-left: 240px;
+}
+
+#container_12 #prefix_4 {
+    padding-left: 320px;
+}
+
+#container_12 #prefix_5 {
+    padding-left: 400px;
+}
+
+#container_12 #prefix_6 {
+    padding-left: 480px;
+}
+
+#container_12 #prefix_7 {
+    padding-left: 560px;
+}
+
+#container_12 #prefix_8 {
+    padding-left: 640px;
+}
+
+#container_12 #prefix_9 {
+    padding-left: 720px;
+}
+
+#container_12 #prefix_10 {
+    padding-left: 800px;
+}
+
+#container_12 #prefix_11 {
+    padding-left: 880px;
+}
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+#container_12 #suffix_1 {
+    padding-right: 80px;
+}
+
+#container_12 #suffix_2 {
+    padding-right: 160px;
+}
+
+#container_12 #suffix_3 {
+    padding-right: 240px;
+}
+
+#container_12 #suffix_4 {
+    padding-right: 320px;
+}
+
+#container_12 #suffix_5 {
+    padding-right: 400px;
+}
+
+#container_12 #suffix_6 {
+    padding-right: 480px;
+}
+
+#container_12 #suffix_7 {
+    padding-right: 560px;
+}
+
+#container_12 #suffix_8 {
+    padding-right: 640px;
+}
+
+#container_12 #suffix_9 {
+    padding-right: 720px;
+}
+
+#container_12 #suffix_10 {
+    padding-right: 800px;
+}
+
+#container_12 #suffix_11 {
+    padding-right: 880px;
+}
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+#container_12 #push_1 {
+    left: 80px;
+}
+
+#container_12 #push_2 {
+    left: 160px;
+}
+
+#container_12 #push_3 {
+    left: 240px;
+}
+
+#container_12 #push_4 {
+    left: 320px;
+}
+
+#container_12 #push_5 {
+    left: 400px;
+}
+
+#container_12 #push_6 {
+    left: 480px;
+}
+
+#container_12 #push_7 {
+    left: 560px;
+}
+
+#container_12 #push_8 {
+    left: 640px;
+}
+
+#container_12 #push_9 {
+    left: 720px;
+}
+
+#container_12 #push_10 {
+    left: 800px;
+}
+
+#container_12 #push_11 {
+    left: 880px;
+}
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+#container_12 #pull_1 {
+    left: -80px;
+}
+
+#container_12 #pull_2 {
+    left: -160px;
+}
+
+#container_12 #pull_3 {
+    left: -240px;
+}
+
+#container_12 #pull_4 {
+    left: -320px;
+}
+
+#container_12 #pull_5 {
+    left: -400px;
+}
+
+#container_12 #pull_6 {
+    left: -480px;
+}
+
+#container_12 #pull_7 {
+    left: -560px;
+}
+
+#container_12 #pull_8 {
+    left: -640px;
+}
+
+#container_12 #pull_9 {
+    left: -720px;
+}
+
+#container_12 #pull_10 {
+    left: -800px;
+}
+
+#container_12 #pull_11 {
+    left: -880px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+#clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+#clearfix:before,
+#clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#clearfix:after {
+    clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+#clearfix {
+    zoom: 1;
+}

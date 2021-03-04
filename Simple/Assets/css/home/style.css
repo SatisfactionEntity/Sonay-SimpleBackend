@@ -1,0 +1,48 @@
+.inner {
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+}
+
+html body div.content div div.c_box div.inner table.list_table {
+    position: relative;
+}
+
+html div table {
+    position: relative;
+    font-size: 11px;
+    border: 1px solid #E6E6E6;
+    border-collapse: collapse;
+}
+
+div.inner table.list_table tr:hover {
+    background: #D2D2D2;
+}
+
+div.inner table.list_table tr td {
+    padding: 3px;
+}
+
+table {
+    position: relative;
+    font-size: 11px;
+    border: 1px solid #E6E6E6;
+    border-collapse: collapse;
+}
+
+table tr {
+    position: relative;
+    border: 1px solid #E6E6E6;
+}
+
+table tr td {
+    position: relative;
+    border: 1px solid #E6E6E6;
+    word-wrap: break-word;
+    cursor: default;
+    padding: 8px;
+}
+
+table tr:hover {
+    background-color: rgba(162, 214, 234, 0.5);
+}

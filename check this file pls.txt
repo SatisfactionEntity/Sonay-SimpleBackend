@@ -1,0 +1,15 @@
+To make sure you got the previous versions of this habbo cms the not-editted versions, 
+i will be only give the website backend it self. This does not include the following folders.
+
+- AvatarGenerator 
+- htdocs 
+- Some more important stuff.
+
+This is because of people who think they can ez search stuff and think they can re-name the credits in the footer
+after they found what they were looking for.
+
+Converting this SWF client into HTML5 client (Since flash stopped) would not be hard.
+
+I will not explain this, since hotel developers can do it by them self right?
+
+Goodluck!
